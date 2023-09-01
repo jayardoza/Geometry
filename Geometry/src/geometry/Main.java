@@ -20,15 +20,15 @@ public class Main {
         System.out.println("Point 2: " + point2);
         System.out.println("Origin: " + origin);
 
-        System.out.println("Distance from Point 1 to Point 2: " + 
+        System.out.println("\nDistance from Point 1 to Point 2: " + 
                        String.format("%.2f", point1.distance(point2)));
         System.out.println("Distance from Point 1 to Origin: " + 
                        String.format("%.2f", point1.distanceToOrigin()));
                                 
-        System.out.println("Quadrant of Point 1: " + point1.getQuadrant());
+        System.out.println("\nQuadrant of Point 1: " + point1.getQuadrant());
         System.out.println("Quadrant of Point 2: " + point2.getQuadrant());
                                 
-        System.out.println("Angle of Point 1: " + String.format("%.2f", point1.getAngle()) + " degrees");
+        System.out.println("\nAngle of Point 1: " + String.format("%.2f", point1.getAngle()) + " degrees");
         System.out.println("Angle of Point 2: " + String.format("%.2f", point2.getAngle()) + " degrees");
 
     }
